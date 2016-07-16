@@ -58,10 +58,11 @@ Lennart Dührsen, Raphael Hiesgen, Sebastian Meiling, Lotte Steenbrink
 
 * Python 3, full (?) featured CoAP implementation
 
-* issue: cannot handle interface identifiers
-    - no link local IPv6 addresses
-    - e.g., `[fe80::a:b:c:d%lowpan0]`
+* ~~issue: cannot handle interface identifiers~~
+    - ~~no link local IPv6 addresses~~
+    - ~~e.g., `[fe80::a:b:c:d%lowpan0]`~~
     - libcoap will do
+    - issue is fixed
 
 * otherwise simple usage:
 
